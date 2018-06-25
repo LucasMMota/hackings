@@ -1,10 +1,10 @@
 # Run Shell Script with Keyboard Shortcuts
 
-// In this example I set a keyboard shortcut to run android reload on my react native project.
+## In this example I set a keyboard shortcut to run android reload on my react native project.
 
-// 1. Install the macros extension to execute multiple commands. 
-// 2. After installed go to Preferences>Settings (or cmd+,)
-// 3. Find Macros Configuration and use to edit in User Settings, or simply add the following in your user settings:
+* 1. Install the macros extension to execute multiple commands. 
+* 2. After installed go to Preferences>Settings (or cmd+,)
+* 3. Find Macros Configuration and use to edit in User Settings, or simply add the following in your user settings:
 ```
 {
     //... other configs you could have
@@ -35,7 +35,7 @@
 }
 ```
 
-// 4. Now that we have the command set, we need to set a trigger shortcut. So go to Preferences>Keyboard Shortcuts (or cmd+k), open keybindings.json and edit like this:
+* 4. Now that we have the command set, we need to set a trigger shortcut. So go to Preferences>Keyboard Shortcuts (or cmd+k), open keybindings.json and edit like this:
 ```
 // Place your key bindings in this file to overwrite the defaults
 [
@@ -47,7 +47,7 @@
 
 ]
 ```
-// 5. Save your User Settings customizations and keybindings.json, respectively
+* 5. Save your User Settings customizations and keybindings.json, respectively
 
 # Bind file format and indeting with save shortcut
 
@@ -61,6 +61,7 @@
 ```
 
 `User Settings`:
+```
 "macros": {
         "saveContentAndIndent": [
             "editor.action.formatDocument", // format
@@ -68,4 +69,4 @@
         ],
         //....
 }
-
+```
