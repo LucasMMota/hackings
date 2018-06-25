@@ -70,3 +70,7 @@
         //....
 }
 ```
+
+References:
+https://vscode-docs.readthedocs.io/en/stable/customization/keybindings/
+https://code.visualstudio.com/docs/getstarted/keybindings
