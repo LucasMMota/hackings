@@ -49,7 +49,7 @@
 ```
 * 5. Save your User Settings customizations and keybindings.json, respectively
 
-# Bind file format and indeting with save shortcut
+# Bind file format and indenting with save shortcut
 
 `keybindings.json`:
 ```
